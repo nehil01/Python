@@ -1,0 +1,67 @@
+
+if(5>2):
+ print("five is greater")
+ if(2<5):
+    print("two is smaller")
+
+x = 2
+y = "Hello" #to make string
+print(x)
+print(y)
+
+
+# Single Line Comment
+
+"""
+Multiple 
+line
+comment
+"""
+
+# Variables
+
+x = 3
+x = int(3)
+y = float(3.0)
+print(x)
+print(y)
+
+# To get Type type()
+
+x = 3
+y = "Hello"
+print(type(x))
+print(type(y))
+
+# Case Sensitive
+a= 3
+A= 4
+print(a)
+print(A)
+
+#Declarying mulltiple variable
+x, y, z = "orange", "apple", "banana"
+print(x)
+print(y)
+print(z)
+
+# Global Variable
+x = "Best"
+def myfunc():
+    print("I am " +x)
+myfunc()
+
+x = "best"
+def myfunc():
+    x= "awesome"
+    print("I am " +x)
+myfunc()
+print("I am " +x)
+
+# Random number
+import random
+print(random.randrange(1,100))
+
+# Taking Input
+input("What is your name?")
+print("Hello " + input("what is your name?"))
