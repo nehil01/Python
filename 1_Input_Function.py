@@ -1,3 +1,5 @@
+# INPUT FUNCTION IS USED FOR TAKING INPUT FROM USERS
+
 name = input()
 sname = input()
 print(name)
