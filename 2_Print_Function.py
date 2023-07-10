@@ -1,3 +1,5 @@
+# PRINT FUNCTION IN PYTHON IS USED TO PRINT THE MESSAGE ON THE SCREEN
+
 print("Nehil", "Rishabh", "Rohit", 24, 56, 21.45, 79.01) 
 #Here Each elements are seperated by space
 
