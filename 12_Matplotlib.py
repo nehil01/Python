@@ -18,8 +18,37 @@ plt.scatter(x, y)
 plt.show()
 
 
-# TO CREATE LINEAR GRAPH USING FUNCTIONS
+# SINE WAVE GRAPH
+import matplotlib.pyplot as plt
+import numpy as np
+import math
 
+x = np.arange(0, math.pi*2, 0.5) # from 0 to math.pi*2 at interval of 0.5
+y = np.sin(x)
+
+plt.plot(x,y)
+plt.title('sin wave')
+plt.xlabel('angle')
+plt.ylabel('sine')
+plt.show()
+
+
+# COSINE WAVE GRAPH
+import matplotlib.pyplot as plt
+import numpy as np
+import math
+
+x = np.arange(0, math.pi*2, 0.5) # from 0 to math.pi*2 at interval of 0.5
+y = np.cos(x)
+
+plt.plot(x,y)
+plt.title('cosine wave')
+plt.xlabel('angle')
+plt.ylabel('cosine')
+plt.show()
+
+
+# TO CREATE LINEAR GRAPH USING FUNCTIONS
 
 import matplotlib.pyplot  as plt
 fig,axes= plt.subplots(2,3)
